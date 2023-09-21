@@ -1,8 +1,9 @@
-import 'package:bettingaviator/config/services/api_client.dart';
-import 'package:bettingaviator/config/utils/custom_logger.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
+
+import 'config/services/api_client.dart';
+import 'config/utils/custom_logger.dart';
 
 final di = GetIt.instance;
 Future<void> dependencyInjector() async {

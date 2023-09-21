@@ -1,7 +1,8 @@
-import 'package:bettingaviator/config/utils/constants.dart';
-import 'package:bettingaviator/config/utils/dimensions.dart';
 import 'package:figma_squircle/figma_squircle.dart';
 import 'package:flutter/material.dart';
+
+import '../utils/constants.dart';
+import '../utils/dimensions.dart';
 
 class SecondaryButton extends StatelessWidget {
   final Widget child;

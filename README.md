@@ -26,7 +26,7 @@
 ```
 Developed by @DeevSaini
 ```
-
+</center>
 Basic Skeleton For the Clean Architecture, i use it for all my Production Applications.
 
 ## 👇🏻 Getting Started
@@ -42,6 +42,12 @@ Open the android/app/build.gradle file.
 Locate the applicationId field in the defaultConfig block.
 
 Change the value of applicationId to your desired package name.
+
+> if the app doesnt run make sure you change the package id in main activity also.
+
+<img src="doc/activity.png">
+<br>
+<br>
 
 > #### 📱 For iOS:
 

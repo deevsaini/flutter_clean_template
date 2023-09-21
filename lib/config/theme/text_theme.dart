@@ -1,6 +1,7 @@
-import 'package:bettingaviator/config/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../utils/dimensions.dart';
 
 class CustomStyles {
   static final titleTextStyle = GoogleFonts.poppins(

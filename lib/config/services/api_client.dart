@@ -1,6 +1,7 @@
-import 'package:bettingaviator/config/utils/constants.dart';
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
+
+import '../utils/constants.dart';
 
 class API {
   final _dio = Dio();

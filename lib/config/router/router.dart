@@ -1,9 +1,10 @@
 // ignore_for_file: unused_local_variable
 
 import 'package:animations/animations.dart';
-import 'package:bettingaviator/not_found.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+import '../../not_found.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   final args = settings.arguments;
@@ -25,6 +26,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
   }
 
   switch (settings.name) {
+    case NotFoundPage.routeName:
+      return router(const NotFoundPage());
     default:
       return router(const NotFoundPage());
   }

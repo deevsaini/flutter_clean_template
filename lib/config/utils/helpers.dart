@@ -1,8 +1,9 @@
-import 'package:bettingaviator/config/utils/constants.dart';
-import 'package:bettingaviator/config/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import 'constants.dart';
+import 'dimensions.dart';
 
 Widget addVerticalSpace(double height) {
   return SizedBox(

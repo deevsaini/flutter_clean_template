@@ -1,4 +1,4 @@
-package com.mahimadan.bettingaviator
+package com.deev.cleantemplate
 
 import io.flutter.embedding.android.FlutterActivity
 

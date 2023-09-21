@@ -1,14 +1,15 @@
-import 'package:bettingaviator/config/theme/text_theme.dart';
-import 'package:bettingaviator/config/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../utils/constants.dart';
+import 'text_theme.dart';
+
 ThemeData theme = ThemeData.light().copyWith(
   primaryColor: Constants.primaryColor,
-  textTheme: const TextTheme().apply(
-    bodyColor: Colors.white,
-    displayColor: Colors.white,
-  ),
+  // textTheme: const TextTheme().apply(
+  //   bodyColor: Colors.white,
+  //   displayColor: Colors.white,
+  // ),
   primaryColorDark: Colors.white,
   splashColor: Colors.transparent,
   highlightColor: Colors.transparent,

@@ -1,14 +1,16 @@
-import 'package:bettingaviator/config/responsive/responsive_widget.dart';
-import 'package:bettingaviator/config/theme/text_theme.dart';
-import 'package:bettingaviator/config/utils/assets.dart';
-import 'package:bettingaviator/config/utils/constants.dart';
-import 'package:bettingaviator/config/utils/dimensions.dart';
-import 'package:bettingaviator/config/utils/helpers.dart';
-import 'package:bettingaviator/config/widgets/gradient_button.dart';
-import 'package:bettingaviator/config/widgets/reveal_slide_widget.dart';
+import 'package:cleantemplate/config/utils/assets.dart';
+import 'package:cleantemplate/config/utils/dimensions.dart';
 import 'package:flutter/material.dart';
 
+import 'config/responsive/responsive_widget.dart';
+import 'config/theme/text_theme.dart';
+import 'config/utils/constants.dart';
+import 'config/utils/helpers.dart';
+import 'config/widgets/gradient_button.dart';
+import 'config/widgets/reveal_slide_widget.dart';
+
 class NotFoundPage extends StatelessWidget {
+  static const String routeName = "not-found";
   const NotFoundPage({super.key});
 
   @override
@@ -39,7 +41,7 @@ class _NotFoundMobileState extends State<NotFoundMobile> {
   late Image gif;
   @override
   void initState() {
-    gif = Image.asset(Assets.route);
+    gif = Image.asset(Assets.routeGif);
     super.initState();
   }
 
@@ -78,21 +80,18 @@ class _NotFoundMobileState extends State<NotFoundMobile> {
                 children: [
                   SlideRevealWidget(
                       child: Text("OOPS!",
-                          style: CustomStyles.largeHeadingTextStyle
-                              .copyWith(color: Colors.black))),
+                          style: CustomStyles.largeHeadingTextStyle)),
                   addVerticalSpace(8),
                   SlideRevealWidget(
                     delay: 100,
                     child: Text("You May Have Lost Your Path..",
-                        style: CustomStyles.titleTextStyle
-                            .copyWith(color: Colors.black)),
+                        style: CustomStyles.titleTextStyle),
                   ),
                   addVerticalSpace(4),
                   SlideRevealWidget(
                     delay: 150,
                     child: Text("click the button below to go back home",
-                        style: CustomStyles.smallTitleTextStyle
-                            .copyWith(color: Colors.black)),
+                        style: CustomStyles.smallTitleTextStyle),
                   ),
                   addVerticalSpace(Dimensions.height5 * 10),
                   SlideRevealWidget(
@@ -104,15 +103,11 @@ class _NotFoundMobileState extends State<NotFoundMobile> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Text(
-                              "Go Home",
-                              style: CustomStyles.buttonTextStyle
-                                  .copyWith(color: Constants.primaryColor),
-                            ),
+                            Text("Go Home",
+                                style: CustomStyles.buttonTextStyle),
                             addHorizontalSpace(10),
                             const Icon(
                               Icons.arrow_right_alt,
-                              color: Constants.primaryColor,
                             )
                           ],
                         ),

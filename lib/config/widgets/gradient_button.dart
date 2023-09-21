@@ -1,9 +1,10 @@
-import 'package:bettingaviator/config/responsive/responsive_widget.dart';
-import 'package:bettingaviator/config/theme/text_theme.dart';
-import 'package:bettingaviator/config/utils/constants.dart';
-import 'package:bettingaviator/config/utils/dimensions.dart';
 import 'package:figma_squircle/figma_squircle.dart';
 import 'package:flutter/material.dart';
+
+import '../responsive/responsive_widget.dart';
+import '../theme/text_theme.dart';
+import '../utils/constants.dart';
+import '../utils/dimensions.dart';
 
 class GradientButton extends StatelessWidget {
   final Widget child;

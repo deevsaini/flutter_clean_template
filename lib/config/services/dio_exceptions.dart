@@ -1,5 +1,6 @@
-import 'package:bettingaviator/config/services/failure.dart';
 import 'package:dio/dio.dart';
+
+import 'failure.dart';
 
 class DioExceptions implements Exception {
   DioExceptions.fromDioError(DioException dioError) {

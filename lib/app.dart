@@ -1,11 +1,11 @@
 import 'dart:io';
-import 'package:bettingaviator/config/router/router.dart';
-import 'package:bettingaviator/config/theme/app_theme.dart';
-import 'package:bettingaviator/config/utils/custom_logger.dart';
-import 'package:bettingaviator/injector.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
+import 'config/router/router.dart';
+import 'config/theme/app_theme.dart';
+import 'config/utils/custom_logger.dart';
+import 'injector.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({
@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: "App Name",
+      title: "Clean Template",
       debugShowCheckedModeBanner: false,
       onGenerateRoute: (settings) => generateRoute(settings),
       initialRoute: "/",
