@@ -19,9 +19,13 @@
     <a href="https://coveralls.io/github/badges/shields">
         <img src="https://img.shields.io/coveralls/github/badges/shields"
             alt="coverage"></a>
-
-   
 </p>
+
+<center>
+ 
+```
+Developed by @DeevSaini
+```
 
 Basic Skeleton For the Clean Architecture, i use it for all my Production Applications.
 
